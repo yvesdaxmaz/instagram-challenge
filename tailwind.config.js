@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    translate: ['responsive', 'hover', 'focus', 'group-hover'],
+  },
   plugins: [],
   corePlugins: {},
 };
