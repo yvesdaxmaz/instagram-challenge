@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./styles/tailwind.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" sizes=192x192" href="./images/instagram_favicon.png">
+  </head>
+  <body class="">
+    <header class="fixed top-0 left-0 w-full bg-white z-10">
+      <div class="h-12 border-gray-300 shadow border-b">
+        <div class="max-w-4xl w-full mx-auto px-4 lg:px-0">
+          <div class="flex items-center justify-between h-12">
+            <a href="" class="flex">
+              <div class="flex-shrink-0">
+                <img src="./images/Instagram_logo.png" alt="" class="h-7" />
+              </div>
+            </a>
+            <div class="hidden sm:block">
+              <div>
+                <div class="flex items-center h-8 w-56 px-2 rounded border border-gray-300">
+                  <span class="instagram_icon search_icon"></span>
+                  <div class="mx-2">
+                    <input type="text" name="" class="w-full text-sm" placeholder="Search"/>
+                  </div>
+                  <span class="instagram_icon cross_icon"></span>
+                </div>
+              </div>
+            </div>
+            <div class="flex">
+              <a href="#" class="mr-2">
+                <svg aria-label="Home" class="h-6 w-6" fill="#262626" viewBox="0 0 48 48" width="22">
+                  <path d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z"></path>
+                </svg>
+              </a>
+              <a href="#" class="mx-2">
+                <svg aria-label="Direct" class="h-6 w-6" fill="#262626" height="22" viewBox="0 0 48 48" width="22">
+                  <path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path>
+                </svg>
+              </a>
+
+              <a href="#" class="mx-2">
+                <svg aria-label="Find People" class="h-6 w-6" fill="#262626" height="22" viewBox="0 0 48 48" width="22">
+                  <path clip-rule="evenodd" d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm0 45C12.4 45 3 35.6 3 24S12.4 3 24 3s21 9.4 21 21-9.4 21-21 21zm10.2-33.2l-14.8 7c-.3.1-.6.4-.7.7l-7 14.8c-.3.6-.2 1.3.3 1.7.3.3.7.4 1.1.4.2 0 .4 0 .6-.1l14.8-7c.3-.1.6-.4.7-.7l7-14.8c.3-.6.2-1.3-.3-1.7-.4-.5-1.1-.6-1.7-.3zm-7.4 15l-5.5-5.5 10.5-5-5 10.5z" fill-rule="evenodd"></path>
+                </svg>
+              </a>
+              <a href="#" class="mx-2">
+                <svg aria-label="Activity Feed" class="h-6 w-6" fill="#262626" height="22" viewBox="0 0 48 48" width="22">
+                  <path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z" ></path>
+                </svg>
+              </a>
+              <a href="#" class="flex ml-2">
+                  <div class="flex-shrink-0">
+                      <img src="./images/profile.jpg" class="h-6 w-6 rounded-full"alt=""/>
+                  </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="content" class="flex flex-col bg-gray-100 mt-12">
+
+        <div class="w-full max-w-4xl mx-auto lg:px-0">
+            <div class="py-8">
+                <div class="flex bg-white shadow border border-gray-300">
+                    <div class="hidden sm:block w-1/4 border-r border-gray-300">
+                        <ul class="text-gray-800 text-sm">
+                            <li class="text-center py-4 border-l-2 border-gray-800">
+                                <a href="#" class="font-bold">Edit Profile</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Change Password</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Apps and Websites</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Email and SMS</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Push Notification</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Manage Contacts</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Privacy and Security</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Login Activity</a>
+                            </li>
+                            <li class="text-center py-4">
+                                <a href="#" class="">Emails from Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full sm:w-3/4 mx-auto">
+                        <div class="py-4">
+                            <div class="flex w-full max-w-xl mb-8 text-gray-800">
+                                <div class="flex sm:justify-end sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base">
+                                
+                                    <div class="flex flex-shrink-0">
+                                        <img src="./images/profile.jpg" class="rounded-full h-12 w-12" alt="">
+                                    </div>
+                                </div>
+                                <div class=" sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <div class="ton5-bold">
+                                        <h2 class="text-xl text-gray-800">yvesdaxmaz</h2>
+                                        <p class="text-sm font-bold text-blue-600">Change Profile Photo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Name</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <input class="w-full rounded px-2 py-1 border border-gray-300 mb-2" type="text" name="">
+                                    <p class="text-xs text-gray-600 mb-2">
+                                        Help people discover your account by using the name you're known by. either your full name, nickname, or business name.
+                                    </p>
+                                    <p class="text-xs text-gray-600 mb-2">
+                                        You can only change your name twice within 14 days.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Username</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <input class="w-full rounded px-2 py-1 border border-gray-300" type="text" name="">
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Website</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <input class="w-full rounded px-2 py-1 border border-gray-300" type="text" name="">
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Bio</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <textarea class="w-full rounded px-2 py-1 border border-gray-300 mb-2" cols="30" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full ml-auto sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <h2 class="text-md font-bold text-gray-600">Personal Info</h2>
+                                    <p class="text-xs text-gray-600 mb-2">
+                                        Provide your personal information, even if the accound is used for a business, a pet or something else. This won't be a part of your public profile.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Email</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <input class="w-full rounded px-2 py-1 mb-4 border border-gray-300" type="email" name="">
+
+                                    <a href="#" class="px-2 py-2 rounded bg-blue-600 text-sm font-bold text-white">Confirm Email</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Phone Number</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <input class="w-full rounded px-2 py-1 border border-gray-300" type="email" name="">
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Gender</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <input class="w-full rounded px-2 py-1 border border-gray-300" type="text" name="">
+                                </div>
+                            </div>
+                           
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="w-full sm:w-1/3 px-4 sm:pl-0 sm:pr-8 sm:text-right font-bold text-base mb-2 sm:mb-0">Similar Account Suggestions</div>
+                                <div class="w-full sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <label for="" class="flex items-center">
+                                        <input type="checkbox" name="">
+                                        <span class="ml-2 font-bold text-sm text-gray-800">Include Your Account when recommending similar accounts people might want to follow. </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="flex flex-col flex-wrap sm:flex-row w-full max-w-xl mb-4">
+                                <div class="flex items-center justify-between w-full ml-auto sm:w-2/3 px-4 sm:px-0 max-w-sm">
+                                    <a href="#" class="px-2 py-2 rounded bg-blue-600 text-sm font-bold text-white">Submit</a>
+                                    <a href="#" class="text-sm font-bold text-blue-600">Temporarily disable my account</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex-grow-1">
+            <div class="px-4">
+                <ul class="flex flex-wrap justify-center text-xs uppercase text-blue-800 font-bold">
+                    <li class="mr-2"><a href="#">About</a></li>
+                    <li class="mr-2"><a href="#">Help</a></li>
+                    <li class="mr-2"><a href="#">Press</a></li>
+                    <li class="mr-2"><a href="#">API</a></li>
+                    <li class="mr-2"><a href="#">Jobs</a></li>
+                    <li class="mr-2"><a href="#">Privacy</a></li>
+                    <li class="mr-2"><a href="#">Terms</a></li>
+                    <li class="mr-2"><a href="#">Locations</a></li>
+                    <li class="mr-2"><a href="#">Top Accounts</a></li>
+                    <li class="mr-2"><a href="#">Hashtags</a></li>
+                    <li  class="mr-2"><a href="#">Language</a></li>
+                </ul>
+                <div class="mt-4 text-xs text-center uppercase font-bold text-gray-600">
+                    &copy; 2020 Instagram Clone By Daxmaz
+                </div>
+           </div>
+        </div>
+  </body>
+</html>
